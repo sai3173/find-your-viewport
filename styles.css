@@ -9,8 +9,16 @@ body {
     height: 100vh;
     color: #ff5b17;
     overflow: hidden;
+    touch-action: none; 
+  pointer-events: none;
 }
 
+@media (max-width: 768px) {
+    h1 {
+      display: none; 
+    }
+  }
+  
 .viewport-container {
     text-align: center;
     padding: 90px;
