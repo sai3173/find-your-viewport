@@ -24,8 +24,7 @@ body {
     padding: 90px;
     width: 100%;
     max-width: 640px;
-    
-  
+     
 }
 #size{
     font-weight: normal;
@@ -35,6 +34,7 @@ body {
 h1 {
     font-size: 3.6em;
     margin-bottom: 40px;
+    
 }
 
 .viewport-size {
@@ -45,7 +45,7 @@ h1 {
 
 .separator {
     border: none;
-    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid #fcfcfc;
     margin: 20px 0;
 }
 
