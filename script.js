@@ -6,9 +6,9 @@ function updateViewportInfo() {
     const screenHeight = screen.height; 
 
     
-    document.getElementById('size').textContent = `${width}px  ×   ${height}px`;
+    document.getElementById('size').innerHTML = `${width}<span class="smaller-px">px</span>  ×   ${height}<span class="smaller-px">px</span>`;
     document.getElementById('device-pixel-ratio').textContent = `DPR: ${dpr.toFixed(2)}`; 
-    document.getElementById('screen').textContent = `Screen Size: ${screenWidth}px × ${screenHeight}px`;
+    document.getElementById('screen').innerHTML = `Screen Size: ${screenWidth}<span class="smaller-px">px</span> × ${screenHeight}<span class="smaller-px">px</span>`;
 }
 
 

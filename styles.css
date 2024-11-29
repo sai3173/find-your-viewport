@@ -30,6 +30,9 @@ body {
     font-weight: normal;
     font-size: 70px;
 }
+.smaller-px {
+    font-size: 0.6em; /* Make the px smaller */
+}
 
 h1 {
     font-size: 3.6em;
